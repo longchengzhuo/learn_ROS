@@ -10,7 +10,6 @@ public:
   {
     publisher_ = this->create_publisher<std_msgs::msg::String>("chartter", 10);
     timer_ = this->create_wall_timer(1s, std::bind(&Talker::on_timer, this));
-
   }
 
 private:
