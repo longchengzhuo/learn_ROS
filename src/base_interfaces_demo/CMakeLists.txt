@@ -7,23 +7,10 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
-
-add_executable(base_interfaces_demo src/base_interfaces_demo.cpp)
-target_include_directories(base_interfaces_demo PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
-target_compile_features(base_interfaces_demo PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
-ament_target_dependencies(
-  base_interfaces_demo
-  "rclcpp"
-  "std_msgs"
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+        "msg/Student.msg"
 )
-
-install(TARGETS base_interfaces_demo
-  DESTINATION lib/${PROJECT_NAME})
-
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

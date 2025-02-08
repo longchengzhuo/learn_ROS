@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3dca6d86c33daaae9277.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "base_interfaces_demo__py",
+					"jsonFile" : "directory-base_interfaces_demo__py-d9c047528e6389a183a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "base_interfaces_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_base_interfaces_demo_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_base_interfaces_demo_egg-49f15fc1e14268f83da7.json",
+					"name" : "ament_cmake_python_build_base_interfaces_demo_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_base_interfaces_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_base_interfaces_demo-ed4af0a1cd011fb42375.json",
+					"name" : "ament_cmake_python_copy_base_interfaces_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo-a485f4412cf52691394f.json",
+					"name" : "base_interfaces_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__cpp-ae57224d9f5fae26fd05.json",
+					"name" : "base_interfaces_demo__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "base_interfaces_demo__py::@62e715e9ca9ff9cfd335",
+					"jsonFile" : "target-base_interfaces_demo__py-3ebed3cc27fe6126a22e.json",
+					"name" : "base_interfaces_demo__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_generator_c-1d9dc2cabb06c78e2d47.json",
+					"name" : "base_interfaces_demo__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_generator_py-6fe88e9acbbacd14530f.json",
+					"name" : "base_interfaces_demo__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_c-e15b3dc657d417989483.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_c__pyext-079acd7f4d485182247f.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_cpp-e66035eba5815d8e29d9.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_fastrtps_c-f75424baf69dab745af7.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext-a6e962b4c9fca92e7fd0.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_fastrtps_cpp-43b32b178501a280dc16.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_introspection_c-41d53ffa38e6ddee3bf2.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_introspection_c__pyext-515b5f7031cc95398212.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo__rosidl_typesupport_introspection_cpp-ae5a154c846f99d8c3df.json",
+					"name" : "base_interfaces_demo__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_interfaces_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_interfaces_demo_uninstall-50e776a380988ccd2265.json",
+					"name" : "base_interfaces_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b063959a9b2742eb37c9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo",
+		"source" : "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
