@@ -70,8 +70,11 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_int
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student.py
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints.py
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/__init__.py
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/__init__.py
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints_s.c
 
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_int
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/msg/Student.idl
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/Addints.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +103,20 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_int
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student.py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student.py
 
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints.py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints.py
+
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/__init__.py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/__init__.py
 
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/__init__.py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/__init__.py
+
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints_s.c: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints_s.c
 
 base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py
 base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
@@ -112,6 +125,9 @@ base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interf
 base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/__init__.py
 base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student.py
 base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c
+base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/__init__.py
+base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints.py
+base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_addints_s.c
 base_interfaces_demo__py: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py.dir/build.make
 .PHONY : base_interfaces_demo__py
 

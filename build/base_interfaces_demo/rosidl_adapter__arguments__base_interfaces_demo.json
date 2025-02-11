@@ -1,6 +1,7 @@
 {
   "package_name": "base_interfaces_demo",
   "non_idl_tuples": [
-    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg"
+    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
+    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:srv/Addints.srv"
   ]
 }

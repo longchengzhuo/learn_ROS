@@ -83,6 +83,7 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFil
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/msg/Student.idl
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/Addints.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c__arguments.json
 
@@ -95,8 +96,23 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFil
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__type_support.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__type_support.h
 
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/addints.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/addints.h
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.h
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__struct.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__struct.h
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__type_support.h: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__type_support.h
+
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c
 
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/flags.make
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c
@@ -112,19 +128,35 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFil
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.s"
 	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.s
 
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/flags.make
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o"
+	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o -MF CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o.d -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o -c /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.i"
+	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c > CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.i
+
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.s"
+	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.s
+
 # Object files for target base_interfaces_demo__rosidl_generator_c
 base_interfaces_demo__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o"
+"CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o" \
+"CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o"
 
 # External object files for target base_interfaces_demo__rosidl_generator_c
 base_interfaces_demo__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_c.so: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_c.so: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c.o
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_c.so: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/build.make
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_c.so: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libbase_interfaces_demo__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libbase_interfaces_demo__rosidl_generator_c.so"
 	cd /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +172,11 @@ base_interfaces_demo__rosidl_generator_c_EXTERNAL_OBJECTS =
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__struct.h
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__type_support.h
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/student.h
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/addints.h
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.c
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.h
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__struct.h
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__type_support.h
 	cd /home/cl/CLionProjects/ws01_plumbing/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cl/CLionProjects/ws01_plumbing /home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo /home/cl/CLionProjects/ws01_plumbing/cmake-build /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend
 

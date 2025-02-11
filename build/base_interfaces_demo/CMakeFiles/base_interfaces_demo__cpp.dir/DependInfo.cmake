@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__traits.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__type_support.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/addints.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/addints__builder.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/addints__struct.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/addints__traits.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/addints__type_support.hpp" "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   )
 
 

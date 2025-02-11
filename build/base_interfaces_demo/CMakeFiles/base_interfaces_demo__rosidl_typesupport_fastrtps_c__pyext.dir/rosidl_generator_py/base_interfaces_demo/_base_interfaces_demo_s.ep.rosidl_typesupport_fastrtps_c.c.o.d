@@ -206,4 +206,7 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl
  /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.h
+ /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.h \
+ /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__type_support.h \
+ /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__struct.h \
+ /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/addints__functions.h

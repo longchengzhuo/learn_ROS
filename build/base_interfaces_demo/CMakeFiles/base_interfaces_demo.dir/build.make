@@ -67,6 +67,9 @@ include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFil
 include /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo.dir/progress.make
 
 /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo: ../src/base_interfaces_demo/msg/Student.msg
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo: ../src/base_interfaces_demo/srv/Addints.srv
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_cmake/srv/Addints_Request.msg
+/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_cmake/srv/Addints_Response.msg
 
 base_interfaces_demo: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo
 base_interfaces_demo: /home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo.dir/build.make

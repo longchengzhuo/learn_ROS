@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp02_service -- -j8 -l8
+[0.023s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.023s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.023s]   contain a literal, direct call to the project() command.  Add a line of
+[0.023s]   code such as
+[0.023s] 
+[0.023s]     project(ProjectName)
+[0.023s] 
+[0.023s]   near the top of the file, but after cmake_minimum_required().
+[0.023s] 
+[0.023s]   CMake is pretending there is a "project(Project)" command on the first
+[0.023s]   line.
+[0.023s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.023s] [0m
+[0.023s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.023s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.023s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.023s]   both commands.
+[0.024s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.024s] [0m
+[0.029s] -- Configuring done (0.0s)
+[0.030s] -- Generating done (0.0s)
+[0.033s] -- Build files have been written to: /home/cl/CLionProjects/ws01_plumbing/cmake-build
+[0.037s] gmake[1]: *** 没有规则可制作目标“/home/cl/CLionProjects/ws01_plumbing/build/cpp02_service/all”。 停止。
+[0.037s] gmake: *** [Makefile:136：all] 错误 2
+[0.039s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp02_service -- -j8 -l8
