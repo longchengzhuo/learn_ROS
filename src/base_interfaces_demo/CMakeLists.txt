@@ -11,6 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Student.msg"
         "srv/Addints.srv"
+        "action/Progress.action"
 )
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

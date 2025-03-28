@@ -1,2 +1,0 @@
-/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles/edit_cache.dir
-/home/cl/CLionProjects/ws01_plumbing/cmake-build/CMakeFiles/rebuild_cache.dir

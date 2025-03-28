@@ -59,7 +59,7 @@ endif()
 add_library(base_interfaces_demo::base_interfaces_demo__rosidl_typesupport_cpp SHARED IMPORTED)
 
 set_target_properties(base_interfaces_demo::base_interfaces_demo__rosidl_typesupport_cpp PROPERTIES
-  INTERFACE_LINK_LIBRARIES "base_interfaces_demo::base_interfaces_demo__rosidl_generator_cpp"
+  INTERFACE_LINK_LIBRARIES "base_interfaces_demo::base_interfaces_demo__rosidl_generator_cpp;action_msgs::action_msgs__rosidl_typesupport_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp"
 )
 
 # Load information for each installed configuration.
