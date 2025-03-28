@@ -1,0 +1,10 @@
+[0.077s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param -- -j8 -l8
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.335s] [35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[0.408s] [ 33%] Built target demo00_param
+[0.428s] [ 66%] Built target demo01_param_server
+[0.436s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[10.857s] gmake[2]: *** [CMakeFiles/demo02_param_client.dir/build.make:76: CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o] 中断
+[10.860s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo02_param_client.dir/all] 中断
+[10.861s] gmake: *** [Makefile:146: all] 中断
+[10.931s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param -- -j8 -l8

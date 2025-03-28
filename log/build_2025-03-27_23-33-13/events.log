@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.001779] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002517] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002683] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.002795] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.002866] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.002929] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.002989] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.003056] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.003134] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.028556] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.030436] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.034223] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param', '--', '-j8', '-l8'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('TERM_SESSION_ID', '4bc15c40-e489-492e-8249-b40808b19229'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('OLDPWD', '/home/cl/CLionProjects/ws01_plumbing/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1469'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14705'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:15710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1863,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9a3dfd2fcc8b44a9a1937582e1dd757d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1902-10-chengzhuo-ubuntu_TIME5116495'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.098848] (-) TimerEvent: {}
+[0.176976] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_param_client\x1b[0m\n'}
+[0.199053] (-) TimerEvent: {}
+[0.222697] (cpp04_param) StdoutLine: {'line': b'[ 33%] Built target demo01_param_server\n'}
+[0.224975] (cpp04_param) StdoutLine: {'line': b'[ 66%] Built target demo00_param\n'}
+[0.237456] (cpp04_param) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o\x1b[0m\n'}
+[0.299249] (-) TimerEvent: {}
+[0.399941] (-) TimerEvent: {}
+[0.500591] (-) TimerEvent: {}
+[0.601395] (-) TimerEvent: {}
+[0.702491] (-) TimerEvent: {}
+[0.803955] (-) TimerEvent: {}
+[0.905219] (-) TimerEvent: {}
+[1.006662] (-) TimerEvent: {}
+[1.107838] (-) TimerEvent: {}
+[1.209022] (-) TimerEvent: {}
+[1.310164] (-) TimerEvent: {}
+[1.411375] (-) TimerEvent: {}
+[1.512727] (-) TimerEvent: {}
+[1.614803] (-) TimerEvent: {}
+[1.716083] (-) TimerEvent: {}
+[1.817196] (-) TimerEvent: {}
+[1.917925] (-) TimerEvent: {}
+[2.018752] (-) TimerEvent: {}
+[2.119712] (-) TimerEvent: {}
+[2.221889] (-) TimerEvent: {}
+[2.324824] (-) TimerEvent: {}
+[2.426034] (-) TimerEvent: {}
+[2.529469] (-) TimerEvent: {}
+[2.630743] (-) TimerEvent: {}
+[2.732263] (-) TimerEvent: {}
+[2.833518] (-) TimerEvent: {}
+[2.934642] (-) TimerEvent: {}
+[3.036087] (-) TimerEvent: {}
+[3.141321] (-) TimerEvent: {}
+[3.244837] (-) TimerEvent: {}
+[3.348644] (-) TimerEvent: {}
+[3.453166] (-) TimerEvent: {}
+[3.560670] (-) TimerEvent: {}
+[3.662140] (-) TimerEvent: {}
+[3.763746] (-) TimerEvent: {}
+[3.865866] (-) TimerEvent: {}
+[3.968193] (-) TimerEvent: {}
+[4.069707] (-) TimerEvent: {}
+[4.171428] (-) TimerEvent: {}
+[4.272831] (-) TimerEvent: {}
+[4.374593] (-) TimerEvent: {}
+[4.476268] (-) TimerEvent: {}
+[4.577529] (-) TimerEvent: {}
+[4.678788] (-) TimerEvent: {}
+[4.779811] (-) TimerEvent: {}
+[4.881136] (-) TimerEvent: {}
+[4.982498] (-) TimerEvent: {}
+[5.083974] (-) TimerEvent: {}
+[5.185436] (-) TimerEvent: {}
+[5.286896] (-) TimerEvent: {}
+[5.388159] (-) TimerEvent: {}
+[5.489836] (-) TimerEvent: {}
+[5.590901] (-) TimerEvent: {}
+[5.692330] (-) TimerEvent: {}
+[5.794779] (-) TimerEvent: {}
+[5.896118] (-) TimerEvent: {}
+[5.997442] (-) TimerEvent: {}
+[6.098606] (-) TimerEvent: {}
+[6.199945] (-) TimerEvent: {}
+[6.301178] (-) TimerEvent: {}
+[6.402522] (-) TimerEvent: {}
+[6.503926] (-) TimerEvent: {}
+[6.606785] (-) TimerEvent: {}
+[6.707989] (-) TimerEvent: {}
+[6.809247] (-) TimerEvent: {}
+[6.910474] (-) TimerEvent: {}
+[7.012797] (-) TimerEvent: {}
+[7.114375] (-) TimerEvent: {}
+[7.216621] (-) TimerEvent: {}
+[7.318406] (-) TimerEvent: {}
+[7.420104] (-) TimerEvent: {}
+[7.522365] (-) TimerEvent: {}
+[7.623850] (-) TimerEvent: {}
+[7.725121] (-) TimerEvent: {}
+[7.826684] (-) TimerEvent: {}
+[7.928223] (-) TimerEvent: {}
+[8.029773] (-) TimerEvent: {}
+[8.131227] (-) TimerEvent: {}
+[8.232520] (-) TimerEvent: {}
+[8.333683] (-) TimerEvent: {}
+[8.435345] (-) TimerEvent: {}
+[8.536651] (-) TimerEvent: {}
+[8.637883] (-) TimerEvent: {}
+[8.739256] (-) TimerEvent: {}
+[8.840666] (-) TimerEvent: {}
+[8.942040] (-) TimerEvent: {}
+[9.043417] (-) TimerEvent: {}
+[9.145244] (-) TimerEvent: {}
+[9.246981] (-) TimerEvent: {}
+[9.348038] (-) TimerEvent: {}
+[9.449093] (-) TimerEvent: {}
+[9.550347] (-) TimerEvent: {}
+[9.651690] (-) TimerEvent: {}
+[9.752810] (-) TimerEvent: {}
+[9.854191] (-) TimerEvent: {}
+[9.956007] (-) TimerEvent: {}
+[10.057976] (-) TimerEvent: {}
+[10.159794] (-) TimerEvent: {}
+[10.261216] (-) TimerEvent: {}
+[10.362672] (-) TimerEvent: {}
+[10.464207] (-) TimerEvent: {}
+[10.565347] (-) TimerEvent: {}
+[10.666333] (-) TimerEvent: {}
+[10.767434] (-) TimerEvent: {}
+[10.868491] (-) TimerEvent: {}
+[10.969558] (-) TimerEvent: {}
+[11.070686] (-) TimerEvent: {}
+[11.171988] (-) TimerEvent: {}
+[11.273136] (-) TimerEvent: {}
+[11.374506] (-) TimerEvent: {}
+[11.475572] (-) TimerEvent: {}
+[11.576850] (-) TimerEvent: {}
+[11.677966] (-) TimerEvent: {}
+[11.779345] (-) TimerEvent: {}
+[11.880612] (-) TimerEvent: {}
+[11.981856] (-) TimerEvent: {}
+[12.082716] (-) TimerEvent: {}
+[12.183523] (-) TimerEvent: {}
+[12.284520] (-) TimerEvent: {}
+[12.385854] (-) TimerEvent: {}
+[12.487095] (-) TimerEvent: {}
+[12.588175] (-) TimerEvent: {}
+[12.689375] (-) TimerEvent: {}
+[12.790415] (-) TimerEvent: {}
+[12.891563] (-) TimerEvent: {}
+[12.992718] (-) TimerEvent: {}
+[13.093965] (-) TimerEvent: {}
+[13.195474] (-) TimerEvent: {}
+[13.296875] (-) TimerEvent: {}
+[13.398135] (-) TimerEvent: {}
+[13.499464] (-) TimerEvent: {}
+[13.600711] (-) TimerEvent: {}
+[13.702034] (-) TimerEvent: {}
+[13.803436] (-) TimerEvent: {}
+[13.904908] (-) TimerEvent: {}
+[14.006165] (-) TimerEvent: {}
+[14.107358] (-) TimerEvent: {}
+[14.208508] (-) TimerEvent: {}
+[14.309762] (-) TimerEvent: {}
+[14.410843] (-) TimerEvent: {}
+[14.511876] (-) TimerEvent: {}
+[14.612802] (-) TimerEvent: {}
+[14.713993] (-) TimerEvent: {}
+[14.815842] (-) TimerEvent: {}
+[14.916884] (-) TimerEvent: {}
+[15.018329] (-) TimerEvent: {}
+[15.119855] (-) TimerEvent: {}
+[15.221182] (-) TimerEvent: {}
+[15.322513] (-) TimerEvent: {}
+[15.424190] (-) TimerEvent: {}
+[15.528409] (-) TimerEvent: {}
+[15.630142] (-) TimerEvent: {}
+[15.731786] (-) TimerEvent: {}
+[15.833192] (-) TimerEvent: {}
+[15.934733] (-) TimerEvent: {}
+[16.035964] (-) TimerEvent: {}
+[16.137032] (-) TimerEvent: {}
+[16.238268] (-) TimerEvent: {}
+[16.339630] (-) TimerEvent: {}
+[16.440898] (-) TimerEvent: {}
+[16.542383] (-) TimerEvent: {}
+[16.643800] (-) TimerEvent: {}
+[16.745425] (-) TimerEvent: {}
+[16.846841] (-) TimerEvent: {}
+[16.948314] (-) TimerEvent: {}
+[17.049740] (-) TimerEvent: {}
+[17.151174] (-) TimerEvent: {}
+[17.253255] (-) TimerEvent: {}
+[17.356862] (-) TimerEvent: {}
+[17.458101] (-) TimerEvent: {}
+[17.559349] (-) TimerEvent: {}
+[17.660559] (-) TimerEvent: {}
+[17.761967] (-) TimerEvent: {}
+[17.863166] (-) TimerEvent: {}
+[17.964540] (-) TimerEvent: {}
+[18.065841] (-) TimerEvent: {}
+[18.167238] (-) TimerEvent: {}
+[18.268725] (-) TimerEvent: {}
+[18.369924] (-) TimerEvent: {}
+[18.471407] (-) TimerEvent: {}
+[18.572629] (-) TimerEvent: {}
+[18.673905] (-) TimerEvent: {}
+[18.775466] (-) TimerEvent: {}
+[18.877379] (-) TimerEvent: {}
+[18.980709] (-) TimerEvent: {}
+[19.082558] (-) TimerEvent: {}
+[19.184487] (-) TimerEvent: {}
+[19.286150] (-) TimerEvent: {}
+[19.387676] (-) TimerEvent: {}
+[19.489206] (-) TimerEvent: {}
+[19.590706] (-) TimerEvent: {}
+[19.692177] (-) TimerEvent: {}
+[19.793614] (-) TimerEvent: {}
+[19.894960] (-) TimerEvent: {}
+[19.994605] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:56:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[19.996160] (-) TimerEvent: {}
+[19.997029] (cpp04_param) StderrLine: {'line': b'   56 | }\n'}
+[19.998041] (cpp04_param) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[19.998924] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:5:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.999785] (cpp04_param) StderrLine: {'line': b'    5 | class ParamClient: public rclcpp::Node\x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[20.000630] (cpp04_param) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[20.055383] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KParamClient::ParamClient()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.056881] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparam_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KParamClient\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.058025] (cpp04_param) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Kparam_client_\x1b[m\x1b[K = std::make_shared<rclcpp::SyncParametersClient>(this,"param_server_node_cpp");\n'}
+[20.059152] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.060169] (cpp04_param) StderrLine: {'line': b'      |         \x1b[32m\x1b[KParamClient\x1b[m\x1b[K\n'}
+[20.096512] (-) TimerEvent: {}
+[20.110770] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ParamClient::connect_server()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.112222] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:12:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparam_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KParamClient\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.114018] (cpp04_param) StderrLine: {'line': b'   12 |         while (!\x1b[01;31m\x1b[Kparam_client_\x1b[m\x1b[K->wait_for_service(1s)) {\n'}
+[20.115312] (cpp04_param) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.116362] (cpp04_param) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KParamClient\x1b[m\x1b[K\n'}
+[20.168710] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ParamClient::get_param()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.170114] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:22:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparam_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KParamClient\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.171055] (cpp04_param) StderrLine: {'line': b'   22 |         std::string car_name = \x1b[01;31m\x1b[Kparam_client_\x1b[m\x1b[K->get_parameter<std::string>("car_name");\n'}
+[20.171936] (cpp04_param) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.172781] (cpp04_param) StderrLine: {'line': b'      |                                \x1b[32m\x1b[KParamClient\x1b[m\x1b[K\n'}
+[20.173723] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:22:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.174565] (cpp04_param) StderrLine: {'line': b'   22 |         std::string car_name = param_client_->get_parameter<std::string\x1b[01;31m\x1b[K>\x1b[m\x1b[K("car_name");\n'}
+[20.175334] (cpp04_param) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.175969] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:23:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.176706] (cpp04_param) StderrLine: {'line': b'   23 |         double width = param_client_->get_parameter<\x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K>("width");\n'}
+[20.177499] (cpp04_param) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.196810] (-) TimerEvent: {}
+[20.237947] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ParamClient::update_param()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.239518] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparam_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KParamClient\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.241162] (cpp04_param) StderrLine: {'line': b'   35 |         \x1b[01;31m\x1b[Kparam_client_\x1b[m\x1b[K->set_parameters({rclcpp::Parameter("car_name","pig"),rclcpp::Parameter("width",3.0),rclcpp::Parameter("length",5.0));\n'}
+[20.242315] (cpp04_param) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.243273] (cpp04_param) StderrLine: {'line': b'      |         \x1b[32m\x1b[KParamClient\x1b[m\x1b[K\n'}
+[20.244247] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:35:138:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.245397] (cpp04_param) StderrLine: {'line': b'   35 |         param_client_->set_parameters({rclcpp::Parameter("car_name","pig"),rclcpp::Parameter("width",3.0),rclcpp::Parameter("length",5.0)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[20.246405] (cpp04_param) StderrLine: {'line': b'      |                                                                                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.247224] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:35:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.247981] (cpp04_param) StderrLine: {'line': b'   35 |         param_client_->set_parameters(\x1b[01;36m\x1b[K{\x1b[m\x1b[Krclcpp::Parameter("car_name","pig"),rclcpp::Parameter("width",3.0),rclcpp::Parameter("length",5.0));\n'}
+[20.248784] (cpp04_param) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[20.262750] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.264039] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:56:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[20.265082] (cpp04_param) StderrLine: {'line': b'   56 | }\n'}
+[20.266098] (cpp04_param) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.297108] (-) TimerEvent: {}
+[20.399034] (-) TimerEvent: {}
+[20.500630] (-) TimerEvent: {}
+[20.602192] (-) TimerEvent: {}
+[20.703471] (-) TimerEvent: {}
+[20.804948] (-) TimerEvent: {}
+[20.906474] (-) TimerEvent: {}
+[21.007905] (-) TimerEvent: {}
+[21.109113] (-) TimerEvent: {}
+[21.210178] (-) TimerEvent: {}
+[21.311394] (-) TimerEvent: {}
+[21.412493] (-) TimerEvent: {}
+[21.513730] (-) TimerEvent: {}
+[21.615179] (-) TimerEvent: {}
+[21.716347] (-) TimerEvent: {}
+[21.817558] (-) TimerEvent: {}
+[21.919686] (-) TimerEvent: {}
+[22.021057] (-) TimerEvent: {}
+[22.123088] (-) TimerEvent: {}
+[22.224132] (-) TimerEvent: {}
+[22.325781] (-) TimerEvent: {}
+[22.426851] (-) TimerEvent: {}
+[22.527932] (-) TimerEvent: {}
+[22.629025] (-) TimerEvent: {}
+[22.730047] (-) TimerEvent: {}
+[22.831139] (-) TimerEvent: {}
+[22.932264] (-) TimerEvent: {}
+[23.033791] (-) TimerEvent: {}
+[23.135355] (-) TimerEvent: {}
+[23.236715] (-) TimerEvent: {}
+[23.337895] (-) TimerEvent: {}
+[23.439145] (-) TimerEvent: {}
+[23.540545] (-) TimerEvent: {}
+[23.641878] (-) TimerEvent: {}
+[23.743450] (-) TimerEvent: {}
+[23.844910] (-) TimerEvent: {}
+[23.946263] (-) TimerEvent: {}
+[24.047477] (-) TimerEvent: {}
+[24.053893] (cpp04_param) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_param_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[24.055644] (cpp04_param) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193\xef\xbc\x9aCMakeFiles/demo02_param_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[24.056695] (cpp04_param) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[24.068473] (cpp04_param) CommandEnded: {'returncode': 2}
+[24.149882] (-) TimerEvent: {}
+[24.159144] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 2}
+[24.172421] (-) EventReactorShutdown: {}

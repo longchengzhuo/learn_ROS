@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.060s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.060s] [ 75%] Built target demo02_action_client
+[3.716s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[3.866s] [100%] Built target demo01_action_server
+[3.879s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[3.887s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action
+[3.894s] -- Install configuration: ""
+[3.894s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[3.895s] -- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[3.895s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[3.896s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[3.896s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[3.896s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[3.896s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[3.896s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[3.896s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[3.896s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[3.897s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action

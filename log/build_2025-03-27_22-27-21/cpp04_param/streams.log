@@ -1,0 +1,54 @@
+[0.027s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param -- -j8 -l8
+[0.086s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.482s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.589s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.600s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.624s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.853s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.858s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.208s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.430s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.696s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.697s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/include>
+[1.698s] -- Configured cppcheck exclude dirs and/or files: 
+[1.700s] -- Added test 'lint_cmake' to check CMake code style
+[1.704s] -- Added test 'uncrustify' to check C / C++ code style
+[1.704s] -- Configured uncrustify additional arguments: 
+[1.705s] -- Added test 'xmllint' to check XML markup files
+[1.708s] -- Configuring done
+[1.763s] -- Generating done
+[1.787s] -- Build files have been written to: /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param
+[1.905s] [35m[1mConsolidate compiler generated dependencies of target demo00_param[0m
+[1.952s] [ 16%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[1.953s] [ 33%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[1.993s] [ 66%] Built target demo00_param
+[18.215s] [ 83%] [32m[1mLinking CXX executable demo02_param_client[0m
+[18.746s] [100%] [32m[1mLinking CXX executable demo01_param_server[0m
+[18.772s] [100%] Built target demo02_param_client
+[19.244s] [100%] Built target demo01_param_server
+[19.296s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param -- -j8 -l8
+[19.342s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param
+[19.377s] -- Install configuration: ""
+[19.378s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[19.379s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[19.381s] -- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[19.382s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[19.384s] -- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[19.384s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[19.385s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[19.386s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[19.386s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[19.387s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[19.387s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[19.388s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[19.389s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[19.389s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[19.390s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[19.390s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[19.391s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[19.391s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[19.392s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[19.393s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[19.398s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param

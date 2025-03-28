@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.001309] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002587] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002705] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.002779] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.002854] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.002922] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.003003] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.003106] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.003227] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.029149] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.031282] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.033917] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param', '--', '-j8', '-l8'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('TERM_SESSION_ID', '4bc15c40-e489-492e-8249-b40808b19229'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('OLDPWD', '/home/cl/CLionProjects/ws01_plumbing/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1469'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14705'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:15710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1863,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9a3dfd2fcc8b44a9a1937582e1dd757d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1902-10-chengzhuo-ubuntu_TIME5116495'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.099173] (-) TimerEvent: {}
+[0.199755] (-) TimerEvent: {}
+[0.218567] (cpp04_param) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o\x1b[0m\n'}
+[0.227619] (cpp04_param) StdoutLine: {'line': b'[ 83%] Built target demo01_param_server\n'}
+[0.228160] (cpp04_param) StdoutLine: {'line': b'[ 83%] Built target demo00_param\n'}
+[0.299961] (-) TimerEvent: {}
+[0.400748] (-) TimerEvent: {}
+[0.501371] (-) TimerEvent: {}
+[0.602082] (-) TimerEvent: {}
+[0.702742] (-) TimerEvent: {}
+[0.803485] (-) TimerEvent: {}
+[0.904655] (-) TimerEvent: {}
+[1.005644] (-) TimerEvent: {}
+[1.106640] (-) TimerEvent: {}
+[1.207672] (-) TimerEvent: {}
+[1.309192] (-) TimerEvent: {}
+[1.410138] (-) TimerEvent: {}
+[1.511160] (-) TimerEvent: {}
+[1.612067] (-) TimerEvent: {}
+[1.712868] (-) TimerEvent: {}
+[1.813790] (-) TimerEvent: {}
+[1.914773] (-) TimerEvent: {}
+[2.015799] (-) TimerEvent: {}
+[2.116653] (-) TimerEvent: {}
+[2.217563] (-) TimerEvent: {}
+[2.318649] (-) TimerEvent: {}
+[2.419848] (-) TimerEvent: {}
+[2.520994] (-) TimerEvent: {}
+[2.622121] (-) TimerEvent: {}
+[2.723227] (-) TimerEvent: {}
+[2.824211] (-) TimerEvent: {}
+[2.925105] (-) TimerEvent: {}
+[3.025986] (-) TimerEvent: {}
+[3.126858] (-) TimerEvent: {}
+[3.227861] (-) TimerEvent: {}
+[3.328699] (-) TimerEvent: {}
+[3.430083] (-) TimerEvent: {}
+[3.531084] (-) TimerEvent: {}
+[3.631966] (-) TimerEvent: {}
+[3.732847] (-) TimerEvent: {}
+[3.833687] (-) TimerEvent: {}
+[3.934595] (-) TimerEvent: {}
+[4.035548] (-) TimerEvent: {}
+[4.136526] (-) TimerEvent: {}
+[4.237584] (-) TimerEvent: {}
+[4.338409] (-) TimerEvent: {}
+[4.439103] (-) TimerEvent: {}
+[4.539757] (-) TimerEvent: {}
+[4.640389] (-) TimerEvent: {}
+[4.741118] (-) TimerEvent: {}
+[4.841804] (-) TimerEvent: {}
+[4.942542] (-) TimerEvent: {}
+[5.043249] (-) TimerEvent: {}
+[5.143937] (-) TimerEvent: {}
+[5.244588] (-) TimerEvent: {}
+[5.345246] (-) TimerEvent: {}
+[5.445893] (-) TimerEvent: {}
+[5.546733] (-) TimerEvent: {}
+[5.647510] (-) TimerEvent: {}
+[5.748091] (-) TimerEvent: {}
+[5.848694] (-) TimerEvent: {}
+[5.949270] (-) TimerEvent: {}
+[6.049927] (-) TimerEvent: {}
+[6.150622] (-) TimerEvent: {}
+[6.251235] (-) TimerEvent: {}
+[6.351943] (-) TimerEvent: {}
+[6.452610] (-) TimerEvent: {}
+[6.553323] (-) TimerEvent: {}
+[6.654000] (-) TimerEvent: {}
+[6.754638] (-) TimerEvent: {}
+[6.855251] (-) TimerEvent: {}
+[6.955961] (-) TimerEvent: {}
+[7.056554] (-) TimerEvent: {}
+[7.157187] (-) TimerEvent: {}
+[7.257742] (-) TimerEvent: {}
+[7.358306] (-) TimerEvent: {}
+[7.458798] (-) TimerEvent: {}
+[7.559323] (-) TimerEvent: {}
+[7.659845] (-) TimerEvent: {}
+[7.760421] (-) TimerEvent: {}
+[7.860972] (-) TimerEvent: {}
+[7.961578] (-) TimerEvent: {}
+[8.062237] (-) TimerEvent: {}
+[8.162954] (-) TimerEvent: {}
+[8.263667] (-) TimerEvent: {}
+[8.364588] (-) TimerEvent: {}
+[8.465312] (-) TimerEvent: {}
+[8.565937] (-) TimerEvent: {}
+[8.666611] (-) TimerEvent: {}
+[8.767209] (-) TimerEvent: {}
+[8.867839] (-) TimerEvent: {}
+[8.968477] (-) TimerEvent: {}
+[9.069149] (-) TimerEvent: {}
+[9.169858] (-) TimerEvent: {}
+[9.270600] (-) TimerEvent: {}
+[9.371330] (-) TimerEvent: {}
+[9.472137] (-) TimerEvent: {}
+[9.572779] (-) TimerEvent: {}
+[9.673426] (-) TimerEvent: {}
+[9.774071] (-) TimerEvent: {}
+[9.874720] (-) TimerEvent: {}
+[9.975370] (-) TimerEvent: {}
+[10.076052] (-) TimerEvent: {}
+[10.176694] (-) TimerEvent: {}
+[10.277296] (-) TimerEvent: {}
+[10.377941] (-) TimerEvent: {}
+[10.382223] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.382774] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.383037] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.383321] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.383646] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.383923] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.384227] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.384511] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.384752] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.384959] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.385161] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.385362] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:1\x1b[m\x1b[K:\n'}
+[10.385598] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ParamClient::get_param()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.385813] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:29:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.386050] (cpp04_param) StderrLine: {'line': b'   29 |             RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"5s = %s"\x1b[m\x1b[K,param.get_name().c_str(),param.value_to_string().c_str());\n'}
+[10.386258] (cpp04_param) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.478106] (-) TimerEvent: {}
+[10.578729] (-) TimerEvent: {}
+[10.679323] (-) TimerEvent: {}
+[10.780252] (-) TimerEvent: {}
+[10.881000] (-) TimerEvent: {}
+[10.981583] (-) TimerEvent: {}
+[11.082182] (-) TimerEvent: {}
+[11.182759] (-) TimerEvent: {}
+[11.283345] (-) TimerEvent: {}
+[11.384030] (-) TimerEvent: {}
+[11.484708] (-) TimerEvent: {}
+[11.585369] (-) TimerEvent: {}
+[11.686167] (-) TimerEvent: {}
+[11.786775] (-) TimerEvent: {}
+[11.887385] (-) TimerEvent: {}
+[11.988015] (-) TimerEvent: {}
+[12.088674] (-) TimerEvent: {}
+[12.189335] (-) TimerEvent: {}
+[12.290197] (-) TimerEvent: {}
+[12.391054] (-) TimerEvent: {}
+[12.491883] (-) TimerEvent: {}
+[12.592716] (-) TimerEvent: {}
+[12.693650] (-) TimerEvent: {}
+[12.794874] (-) TimerEvent: {}
+[12.896111] (-) TimerEvent: {}
+[12.997509] (-) TimerEvent: {}
+[13.098976] (-) TimerEvent: {}
+[13.200562] (-) TimerEvent: {}
+[13.302025] (-) TimerEvent: {}
+[13.403067] (-) TimerEvent: {}
+[13.504152] (-) TimerEvent: {}
+[13.605071] (-) TimerEvent: {}
+[13.705978] (-) TimerEvent: {}
+[13.806858] (-) TimerEvent: {}
+[13.907739] (-) TimerEvent: {}
+[14.008630] (-) TimerEvent: {}
+[14.109632] (-) TimerEvent: {}
+[14.210605] (-) TimerEvent: {}
+[14.279290] (cpp04_param) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_param_client\x1b[0m\n'}
+[14.310790] (-) TimerEvent: {}
+[14.411644] (-) TimerEvent: {}
+[14.512649] (-) TimerEvent: {}
+[14.613639] (-) TimerEvent: {}
+[14.714632] (-) TimerEvent: {}
+[14.815598] (-) TimerEvent: {}
+[14.887698] (cpp04_param) StdoutLine: {'line': b'[100%] Built target demo02_param_client\n'}
+[14.916035] (-) TimerEvent: {}
+[14.940201] (cpp04_param) CommandEnded: {'returncode': 0}
+[14.943212] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'install'}
+[14.988233] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('TERM_SESSION_ID', '4bc15c40-e489-492e-8249-b40808b19229'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('OLDPWD', '/home/cl/CLionProjects/ws01_plumbing/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1469'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14705'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:15710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1863,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9a3dfd2fcc8b44a9a1937582e1dd757d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1902-10-chengzhuo-ubuntu_TIME5116495'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[15.016242] (-) TimerEvent: {}
+[15.023502] (cpp04_param) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.024540] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param\n'}
+[15.025902] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server\n'}
+[15.027333] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client\n'}
+[15.030085] (cpp04_param) StdoutLine: {'line': b'-- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""\n'}
+[15.030948] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param\n'}
+[15.031721] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param\n'}
+[15.032250] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh\n'}
+[15.032613] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv\n'}
+[15.033531] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh\n'}
+[15.033873] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv\n'}
+[15.034247] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash\n'}
+[15.034543] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh\n'}
+[15.034805] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh\n'}
+[15.035043] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv\n'}
+[15.035276] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv\n'}
+[15.035562] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param\n'}
+[15.035988] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake\n'}
+[15.036412] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake\n'}
+[15.036902] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml\n'}
+[15.040805] (cpp04_param) CommandEnded: {'returncode': 0}
+[15.111224] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 0}
+[15.114126] (-) EventReactorShutdown: {}

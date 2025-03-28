@@ -1,0 +1,52 @@
+[0.072s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[0.222s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.066s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.228s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.245s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.281s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.556s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.562s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.962s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.199s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.343s] -- Found base_interfaces_demo: 0.0.0 (/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[2.419s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.689s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.690s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws01_plumbing/src/cpp03_action/include>
+[2.690s] -- Configured cppcheck exclude dirs and/or files: 
+[2.692s] -- Added test 'lint_cmake' to check CMake code style
+[2.696s] -- Added test 'uncrustify' to check C / C++ code style
+[2.696s] -- Configured uncrustify additional arguments: 
+[2.697s] -- Added test 'xmllint' to check XML markup files
+[2.700s] -- Configuring done
+[2.755s] -- Generating done
+[2.779s] -- Build files have been written to: /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action
+[2.870s] [35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[2.871s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[2.933s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[2.936s] [ 75%] Built target demo01_action_server
+[31.244s] [100%] [32m[1mLinking CXX executable demo02_action_client[0m
+[31.825s] [100%] Built target demo02_action_client
+[31.862s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[31.896s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action
+[31.920s] -- Install configuration: ""
+[31.921s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[31.922s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[31.927s] -- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""
+[31.928s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[31.928s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[31.929s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[31.929s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[31.929s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[31.930s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[31.930s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[31.931s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[31.932s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[31.932s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[31.933s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[31.933s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[31.933s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[31.934s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[31.934s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[31.938s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp03_action

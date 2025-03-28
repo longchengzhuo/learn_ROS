@@ -1,0 +1,51 @@
+[0.039s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param -- -j8 -l8
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[0.220s] [ 33%] Built target demo01_param_server
+[0.222s] [ 66%] Built target demo00_param
+[0.235s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[19.993s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:56:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[19.995s]    56 | }
+[19.996s]       |  [01;31m[K^[m[K
+[19.996s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:5:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[19.997s]     5 | class ParamClient: public rclcpp::Node[01;36m[K{[m[K
+[19.998s]       |                                       [01;36m[K^[m[K
+[20.053s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In constructor ‘[01m[KParamClient::ParamClient()[m[K’:
+[20.055s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KParamClient[m[K’?
+[20.056s]     9 |         [01;31m[Kparam_client_[m[K = std::make_shared<rclcpp::SyncParametersClient>(this,"param_server_node_cpp");
+[20.057s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[20.058s]       |         [32m[KParamClient[m[K
+[20.109s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kbool ParamClient::connect_server()[m[K’:
+[20.110s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:12:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KParamClient[m[K’?
+[20.112s]    12 |         while (![01;31m[Kparam_client_[m[K->wait_for_service(1s)) {
+[20.113s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[20.114s]       |                 [32m[KParamClient[m[K
+[20.167s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::get_param()[m[K’:
+[20.168s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:22:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KParamClient[m[K’?
+[20.169s]    22 |         std::string car_name = [01;31m[Kparam_client_[m[K->get_parameter<std::string>("car_name");
+[20.169s]       |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[20.170s]       |                                [32m[KParamClient[m[K
+[20.171s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:22:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[20.172s]    22 |         std::string car_name = param_client_->get_parameter<std::string[01;31m[K>[m[K("car_name");
+[20.173s]       |                                                                        [01;31m[K^[m[K
+[20.173s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:23:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[20.174s]    23 |         double width = param_client_->get_parameter<[01;31m[Kdouble[m[K>("width");
+[20.175s]       |                                                     [01;31m[K^~~~~~[m[K
+[20.236s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::update_param()[m[K’:
+[20.238s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KParamClient[m[K’?
+[20.239s]    35 |         [01;31m[Kparam_client_[m[K->set_parameters({rclcpp::Parameter("car_name","pig"),rclcpp::Parameter("width",3.0),rclcpp::Parameter("length",5.0));
+[20.240s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[20.241s]       |         [32m[KParamClient[m[K
+[20.242s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:35:138:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K)[m[K’ token
+[20.243s]    35 |         param_client_->set_parameters({rclcpp::Parameter("car_name","pig"),rclcpp::Parameter("width",3.0),rclcpp::Parameter("length",5.0)[01;31m[K)[m[K;
+[20.244s]       |                                                                                                                                          [01;31m[K^[m[K
+[20.245s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:35:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[20.245s]    35 |         param_client_->set_parameters([01;36m[K{[m[Krclcpp::Parameter("car_name","pig"),rclcpp::Parameter("width",3.0),rclcpp::Parameter("length",5.0));
+[20.246s]       |                                       [01;36m[K^[m[K
+[20.261s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K At global scope:
+[20.262s] [01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:56:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[20.263s]    56 | }
+[20.264s]       |  [01;31m[K^[m[K
+[24.051s] gmake[2]: *** [CMakeFiles/demo02_param_client.dir/build.make:76：CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o] 错误 1
+[24.053s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/demo02_param_client.dir/all] 错误 2
+[24.054s] gmake: *** [Makefile:146：all] 错误 2
+[24.067s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp04_param -- -j8 -l8
