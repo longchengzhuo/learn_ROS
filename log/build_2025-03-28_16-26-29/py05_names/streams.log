@@ -1,0 +1,37 @@
+[0.546s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/src/py05_names': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws01_plumbing/build/py05_names/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build install --record /home/cl/CLionProjects/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed install_data
+[0.754s] running egg_info
+[0.754s] creating ../../build/py05_names/py05_names.egg-info
+[0.764s] writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+[0.764s] writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+[0.764s] writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+[0.764s] writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+[0.765s] writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+[0.765s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.766s] reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.767s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.767s] running build
+[0.768s] running build_py
+[0.768s] creating /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build
+[0.768s] creating /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build/lib
+[0.768s] creating /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build/lib/py05_names
+[0.768s] copying py05_names/__init__.py -> /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build/lib/py05_names
+[0.768s] copying py05_names/demo01_names_py.py -> /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build/lib/py05_names
+[0.768s] running install
+[0.769s] running install_lib
+[0.770s] creating /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[0.770s] copying /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build/lib/py05_names/__init__.py -> /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[0.770s] copying /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build/lib/py05_names/demo01_names_py.py -> /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[0.770s] byte-compiling /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/__init__.py to __init__.cpython-310.pyc
+[0.771s] byte-compiling /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/demo01_names_py.py to demo01_names_py.cpython-310.pyc
+[0.771s] running install_data
+[0.771s] creating /home/cl/CLionProjects/ws01_plumbing/install/py05_names/share/ament_index
+[0.771s] creating /home/cl/CLionProjects/ws01_plumbing/install/py05_names/share/ament_index/resource_index
+[0.771s] creating /home/cl/CLionProjects/ws01_plumbing/install/py05_names/share/ament_index/resource_index/packages
+[0.771s] copying resource/py05_names -> /home/cl/CLionProjects/ws01_plumbing/install/py05_names/share/ament_index/resource_index/packages
+[0.771s] copying package.xml -> /home/cl/CLionProjects/ws01_plumbing/install/py05_names/share/py05_names
+[0.772s] running install_egg_info
+[0.773s] Copying ../../build/py05_names/py05_names.egg-info to /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info
+[0.774s] running install_scripts
+[0.792s] Installing demo01_names_py script to /home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/py05_names
+[0.792s] writing list of installed files to '/home/cl/CLionProjects/ws01_plumbing/build/py05_names/install.log'
+[0.821s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/src/py05_names' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws01_plumbing/build/py05_names/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/cl/CLionProjects/ws01_plumbing/build/py05_names/build install --record /home/cl/CLionProjects/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed install_data

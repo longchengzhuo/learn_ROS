@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000384] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000555] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000575] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000589] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000603] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000616] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000630] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000645] (tutorails_plumbing) JobQueued: {'identifier': 'tutorails_plumbing', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo'), ('cpp04_param', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param'), ('py04_param', '/home/cl/CLionProjects/ws01_plumbing/install/py04_param'), ('cpp01_topic', '/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic'), ('cpp02_service', '/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service'), ('cpp03_action', '/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action'), ('py02_service', '/home/cl/CLionProjects/ws01_plumbing/install/py02_service'), ('py03_action', '/home/cl/CLionProjects/ws01_plumbing/install/py03_action')])}
+[0.000676] (tutorails_plumbing) JobStarted: {'identifier': 'tutorails_plumbing'}
+[0.011304] (tutorails_plumbing) JobEnded: {'identifier': 'tutorails_plumbing', 'rc': 1}
+[0.021745] (-) EventReactorShutdown: {}

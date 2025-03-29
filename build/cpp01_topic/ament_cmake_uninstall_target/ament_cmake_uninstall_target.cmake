@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/usr/local")
+  set(install_space "/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -21,7 +21,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
   list(LENGTH files length)
   if(length EQUAL 0)
     message(STATUS "Uninstalling: ${path}/")
-    execute_process(COMMAND "/home/cl/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake" "-E" "remove_directory" "${path}")
+    execute_process(COMMAND "/usr/bin/cmake" "-E" "remove_directory" "${path}")
     # recursively try to remove parent directories
     get_filename_component(parent_path "${path}" PATH)
     ament_cmake_uninstall_target_remove_empty_directories("${parent_path}")

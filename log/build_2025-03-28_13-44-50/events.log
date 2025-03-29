@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000520] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000812] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000863] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000880] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000895] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000910] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000927] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000949] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.010319] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.010670] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/cl/CLionProjects/ws01_plumbing/src/cpp01_topic', '-DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('TERM_SESSION_ID', '21b21e1e-f37c-4ee0-9e56-9a2f4f53fb20'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1536'), ('SYSTEMD_EXEC_PID', '1959'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4269'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:18444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1923,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1923'), ('INVOCATION_ID', 'aeccaa0b44d64d9092ffafef71e4f6ca'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1959-1-chengzhuo-ubuntu_TIME510897'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble')]), 'shell': False}
+[0.099958] (-) TimerEvent: {}
+[0.117730] (cpp01_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.190945] (cpp01_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199564] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199972] (-) TimerEvent: {}
+[0.255641] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.262470] (cpp01_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.262794] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.263344] (cpp01_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.266265] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300167] (-) TimerEvent: {}
+[0.332694] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.339698] (cpp01_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.339850] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.340204] (cpp01_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.344917] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400274] (-) TimerEvent: {}
+[0.478672] (cpp01_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500358] (-) TimerEvent: {}
+[0.567957] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600482] (-) TimerEvent: {}
+[0.610606] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.615701] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.624872] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.638988] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.655883] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700588] (-) TimerEvent: {}
+[0.702051] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.704954] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.776528] (cpp01_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.797315] (cpp01_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800677] (-) TimerEvent: {}
+[0.828893] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.838026] (cpp01_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.899363] (cpp01_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.899836] (cpp01_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900750] (-) TimerEvent: {}
+[0.958262] (cpp01_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.959209] (cpp01_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000874] (-) TimerEvent: {}
+[1.012418] (cpp01_topic) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[1.057009] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.100962] (-) TimerEvent: {}
+[1.131023] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.131219] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.131290] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.132099] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.133110] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.133224] (cpp01_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.133684] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.134820] (cpp01_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.149771] (cpp01_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[1.156130] (cpp01_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic\n'}
+[1.163612] (cpp01_topic) CommandEnded: {'returncode': 0}
+[1.165555] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[1.165594] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic', '--', '-j8', '-l8'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('TERM_SESSION_ID', '21b21e1e-f37c-4ee0-9e56-9a2f4f53fb20'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1536'), ('SYSTEMD_EXEC_PID', '1959'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4269'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:18444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1923,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1923'), ('INVOCATION_ID', 'aeccaa0b44d64d9092ffafef71e4f6ca'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1959-1-chengzhuo-ubuntu_TIME510897'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble')]), 'shell': False}
+[1.201066] (-) TimerEvent: {}
+[1.205599] (cpp01_topic) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o\x1b[0m\n'}
+[1.205840] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o\x1b[0m\n'}
+[1.205940] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o\x1b[0m\n'}
+[1.206020] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[1.301164] (-) TimerEvent: {}
+[1.401429] (-) TimerEvent: {}
+[1.501681] (-) TimerEvent: {}
+[1.601925] (-) TimerEvent: {}
+[1.702181] (-) TimerEvent: {}
+[1.802479] (-) TimerEvent: {}
+[1.902755] (-) TimerEvent: {}
+[2.003611] (-) TimerEvent: {}
+[2.103968] (-) TimerEvent: {}
+[2.204315] (-) TimerEvent: {}
+[2.304688] (-) TimerEvent: {}
+[2.405025] (-) TimerEvent: {}
+[2.505365] (-) TimerEvent: {}
+[2.605706] (-) TimerEvent: {}
+[2.706060] (-) TimerEvent: {}
+[2.806456] (-) TimerEvent: {}
+[2.906918] (-) TimerEvent: {}
+[3.007325] (-) TimerEvent: {}
+[3.107866] (-) TimerEvent: {}
+[3.208220] (-) TimerEvent: {}
+[3.308581] (-) TimerEvent: {}
+[3.408925] (-) TimerEvent: {}
+[3.509264] (-) TimerEvent: {}
+[3.609615] (-) TimerEvent: {}
+[3.709980] (-) TimerEvent: {}
+[3.810410] (-) TimerEvent: {}
+[3.910803] (-) TimerEvent: {}
+[4.011227] (-) TimerEvent: {}
+[4.111709] (-) TimerEvent: {}
+[4.212054] (-) TimerEvent: {}
+[4.312446] (-) TimerEvent: {}
+[4.412833] (-) TimerEvent: {}
+[4.513210] (-) TimerEvent: {}
+[4.613620] (-) TimerEvent: {}
+[4.714077] (-) TimerEvent: {}
+[4.814466] (-) TimerEvent: {}
+[4.914888] (-) TimerEvent: {}
+[5.015384] (-) TimerEvent: {}
+[5.115817] (-) TimerEvent: {}
+[5.216282] (-) TimerEvent: {}
+[5.316740] (-) TimerEvent: {}
+[5.417149] (-) TimerEvent: {}
+[5.517867] (-) TimerEvent: {}
+[5.618355] (-) TimerEvent: {}
+[5.719304] (-) TimerEvent: {}
+[5.819863] (-) TimerEvent: {}
+[5.920468] (-) TimerEvent: {}
+[6.020984] (-) TimerEvent: {}
+[6.121510] (-) TimerEvent: {}
+[6.222085] (-) TimerEvent: {}
+[6.311725] (cpp01_topic) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable demo03_talker_stu\x1b[0m\n'}
+[6.322221] (-) TimerEvent: {}
+[6.361951] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_talker_str\x1b[0m\n'}
+[6.422431] (-) TimerEvent: {}
+[6.522987] (-) TimerEvent: {}
+[6.614157] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo03_talker_stu\n'}
+[6.623084] (-) TimerEvent: {}
+[6.706205] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo01_talker_str\n'}
+[6.723206] (-) TimerEvent: {}
+[6.823461] (-) TimerEvent: {}
+[6.923731] (-) TimerEvent: {}
+[7.024127] (-) TimerEvent: {}
+[7.124823] (-) TimerEvent: {}
+[7.225217] (-) TimerEvent: {}
+[7.325530] (-) TimerEvent: {}
+[7.425823] (-) TimerEvent: {}
+[7.526115] (-) TimerEvent: {}
+[7.626421] (-) TimerEvent: {}
+[7.726736] (-) TimerEvent: {}
+[7.827036] (-) TimerEvent: {}
+[7.927339] (-) TimerEvent: {}
+[8.027649] (-) TimerEvent: {}
+[8.127987] (-) TimerEvent: {}
+[8.228288] (-) TimerEvent: {}
+[8.328594] (-) TimerEvent: {}
+[8.428885] (-) TimerEvent: {}
+[8.529210] (-) TimerEvent: {}
+[8.629583] (-) TimerEvent: {}
+[8.729876] (-) TimerEvent: {}
+[8.830138] (-) TimerEvent: {}
+[8.930400] (-) TimerEvent: {}
+[9.030643] (-) TimerEvent: {}
+[9.130916] (-) TimerEvent: {}
+[9.231239] (-) TimerEvent: {}
+[9.331542] (-) TimerEvent: {}
+[9.431841] (-) TimerEvent: {}
+[9.532146] (-) TimerEvent: {}
+[9.632475] (-) TimerEvent: {}
+[9.732783] (-) TimerEvent: {}
+[9.833032] (-) TimerEvent: {}
+[9.933472] (-) TimerEvent: {}
+[10.033902] (-) TimerEvent: {}
+[10.134174] (-) TimerEvent: {}
+[10.234448] (-) TimerEvent: {}
+[10.289486] (cpp01_topic) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable demo04_listener_stu\x1b[0m\n'}
+[10.334579] (-) TimerEvent: {}
+[10.435006] (-) TimerEvent: {}
+[10.440802] (cpp01_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_listener_str\x1b[0m\n'}
+[10.535108] (-) TimerEvent: {}
+[10.635471] (-) TimerEvent: {}
+[10.727661] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target demo04_listener_stu\n'}
+[10.735548] (-) TimerEvent: {}
+[10.835810] (-) TimerEvent: {}
+[10.843251] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target demo02_listener_str\n'}
+[10.856193] (cpp01_topic) CommandEnded: {'returncode': 0}
+[10.857253] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'install'}
+[10.864249] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('TERM_SESSION_ID', '21b21e1e-f37c-4ee0-9e56-9a2f4f53fb20'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1536'), ('SYSTEMD_EXEC_PID', '1959'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4269'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:18444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1923,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1923'), ('INVOCATION_ID', 'aeccaa0b44d64d9092ffafef71e4f6ca'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1959-1-chengzhuo-ubuntu_TIME510897'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/opt/ros/humble')]), 'shell': False}
+[10.870741] (cpp01_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.870911] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str\n'}
+[10.871607] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""\n'}
+[10.871695] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str\n'}
+[10.873515] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""\n'}
+[10.873615] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu\n'}
+[10.875587] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""\n'}
+[10.875758] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu\n'}
+[10.876766] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""\n'}
+[10.876961] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic\n'}
+[10.877075] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic\n'}
+[10.877180] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh\n'}
+[10.877281] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv\n'}
+[10.877384] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh\n'}
+[10.877512] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv\n'}
+[10.877607] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash\n'}
+[10.877697] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh\n'}
+[10.877770] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh\n'}
+[10.877834] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv\n'}
+[10.877910] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv\n'}
+[10.877993] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic\n'}
+[10.878098] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake\n'}
+[10.878171] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake\n'}
+[10.878252] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml\n'}
+[10.879899] (cpp01_topic) CommandEnded: {'returncode': 0}
+[10.898195] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 0}
+[10.898812] (-) EventReactorShutdown: {}
