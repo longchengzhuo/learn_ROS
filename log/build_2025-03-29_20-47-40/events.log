@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000445] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000637] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000662] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000681] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000699] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000716] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000733] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000750] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000767] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000783] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000800] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.000816] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.000833] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000852] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000875] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.008609] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.009037] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.009607] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise', '--', '-j8', '-l8'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('TERM_SESSION_ID', 'c16a3ad9-378a-4aeb-8c9f-dc279394076e'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/cl/CLionProjects/ws01_plumbing/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '1884'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3292'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:16563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/cl/miniconda3/bin:/home/cl/miniconda3/condabin:/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1818,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1818'), ('INVOCATION_ID', 'e269207720ed46c68f6f475dcaa7a4cc'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1884-0-chengzhuo-ubuntu_TIME24402'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/tutorails_plumbing:/home/cl/CLionProjects/ws01_plumbing/install/py05_names:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/home/cl/CLionProjects/ws01_plumbing/install/cpp06_time:/home/cl/CLionProjects/ws01_plumbing/install/cpp05_names:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service:/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cl/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/cl/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/cl/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/tutorails_plumbing:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/home/cl/CLionProjects/ws01_plumbing/install/cpp06_time:/home/cl/CLionProjects/ws01_plumbing/install/cpp05_names:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service:/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic:/home/cl/CLionProjects/ws01_plumbing/install/py05_names:/opt/ros/humble')]), 'shell': False}
+[0.041170] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer01_pub_sub\x1b[0m\n'}
+[0.053365] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o\x1b[0m\n'}
+[0.099985] (-) TimerEvent: {}
+[0.200212] (-) TimerEvent: {}
+[0.300449] (-) TimerEvent: {}
+[0.400722] (-) TimerEvent: {}
+[0.500943] (-) TimerEvent: {}
+[0.601180] (-) TimerEvent: {}
+[0.701418] (-) TimerEvent: {}
+[0.801686] (-) TimerEvent: {}
+[0.901928] (-) TimerEvent: {}
+[1.002160] (-) TimerEvent: {}
+[1.102385] (-) TimerEvent: {}
+[1.202645] (-) TimerEvent: {}
+[1.302921] (-) TimerEvent: {}
+[1.403169] (-) TimerEvent: {}
+[1.503414] (-) TimerEvent: {}
+[1.603696] (-) TimerEvent: {}
+[1.703969] (-) TimerEvent: {}
+[1.804206] (-) TimerEvent: {}
+[1.904439] (-) TimerEvent: {}
+[2.004706] (-) TimerEvent: {}
+[2.104971] (-) TimerEvent: {}
+[2.205200] (-) TimerEvent: {}
+[2.305430] (-) TimerEvent: {}
+[2.405689] (-) TimerEvent: {}
+[2.505958] (-) TimerEvent: {}
+[2.606191] (-) TimerEvent: {}
+[2.706419] (-) TimerEvent: {}
+[2.806683] (-) TimerEvent: {}
+[2.906960] (-) TimerEvent: {}
+[3.007202] (-) TimerEvent: {}
+[3.107438] (-) TimerEvent: {}
+[3.207702] (-) TimerEvent: {}
+[3.307971] (-) TimerEvent: {}
+[3.408238] (-) TimerEvent: {}
+[3.508471] (-) TimerEvent: {}
+[3.608741] (-) TimerEvent: {}
+[3.708975] (-) TimerEvent: {}
+[3.809206] (-) TimerEvent: {}
+[3.909437] (-) TimerEvent: {}
+[4.009727] (-) TimerEvent: {}
+[4.109975] (-) TimerEvent: {}
+[4.210210] (-) TimerEvent: {}
+[4.310461] (-) TimerEvent: {}
+[4.410680] (-) TimerEvent: {}
+[4.510906] (-) TimerEvent: {}
+[4.611129] (-) TimerEvent: {}
+[4.711345] (-) TimerEvent: {}
+[4.811604] (-) TimerEvent: {}
+[4.911829] (-) TimerEvent: {}
+[5.012056] (-) TimerEvent: {}
+[5.112276] (-) TimerEvent: {}
+[5.212503] (-) TimerEvent: {}
+[5.312761] (-) TimerEvent: {}
+[5.412978] (-) TimerEvent: {}
+[5.513199] (-) TimerEvent: {}
+[5.613418] (-) TimerEvent: {}
+[5.713671] (-) TimerEvent: {}
+[5.813930] (-) TimerEvent: {}
+[5.914149] (-) TimerEvent: {}
+[6.014370] (-) TimerEvent: {}
+[6.114592] (-) TimerEvent: {}
+[6.214843] (-) TimerEvent: {}
+[6.315071] (-) TimerEvent: {}
+[6.415290] (-) TimerEvent: {}
+[6.515522] (-) TimerEvent: {}
+[6.615793] (-) TimerEvent: {}
+[6.716082] (-) TimerEvent: {}
+[6.816372] (-) TimerEvent: {}
+[6.916657] (-) TimerEvent: {}
+[6.943583] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer01_pub_sub\x1b[0m\n'}
+[7.016781] (-) TimerEvent: {}
+[7.117034] (-) TimerEvent: {}
+[7.217273] (-) TimerEvent: {}
+[7.261562] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer01_pub_sub\n'}
+[7.269430] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[7.269984] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[7.276180] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise'], 'cwd': '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('TERM_SESSION_ID', 'c16a3ad9-378a-4aeb-8c9f-dc279394076e'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/cl/CLionProjects/ws01_plumbing/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '1884'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3292'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:16563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/cl/miniconda3/bin:/home/cl/miniconda3/condabin:/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1818,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1818'), ('INVOCATION_ID', 'e269207720ed46c68f6f475dcaa7a4cc'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1884-0-chengzhuo-ubuntu_TIME24402'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/tutorails_plumbing:/home/cl/CLionProjects/ws01_plumbing/install/py05_names:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/home/cl/CLionProjects/ws01_plumbing/install/cpp06_time:/home/cl/CLionProjects/ws01_plumbing/install/cpp05_names:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service:/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cl/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/cl/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/cl/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/tutorails_plumbing:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/home/cl/CLionProjects/ws01_plumbing/install/cpp06_time:/home/cl/CLionProjects/ws01_plumbing/install/cpp05_names:/home/cl/CLionProjects/ws01_plumbing/install/cpp04_param:/home/cl/CLionProjects/ws01_plumbing/install/cpp03_action:/home/cl/CLionProjects/ws01_plumbing/install/cpp02_service:/home/cl/CLionProjects/ws01_plumbing/install/cpp01_topic:/home/cl/CLionProjects/ws01_plumbing/install/py05_names:/opt/ros/humble')]), 'shell': False}
+[7.282098] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.282247] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[7.284800] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""\n'}
+[7.284961] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[7.285067] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[7.285146] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[7.285203] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[7.285318] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[7.285375] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[7.285426] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[7.285476] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[7.285531] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[7.285582] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[7.285631] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[7.285679] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[7.285728] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[7.285777] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[7.285829] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[7.285878] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[7.285936] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[7.286641] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[7.299467] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[7.299949] (-) EventReactorShutdown: {}
