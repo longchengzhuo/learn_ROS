@@ -5,7 +5,9 @@
   "idl_tuples": [
     "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl",
     "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/Addints.idl",
-    "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Progress.idl"
+    "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/Distance.idl",
+    "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Progress.idl",
+    "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Nav.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -27,7 +29,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/msg/Student.idl",
     "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/Addints.idl",
+    "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/Distance.idl",
     "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Progress.idl",
+    "/home/cl/CLionProjects/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Nav.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

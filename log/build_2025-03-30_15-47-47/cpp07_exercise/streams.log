@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[0.027s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.160s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.163s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.213s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.214s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.329s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.360s] -- Found base_interfaces_demo: 0.0.0 (/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.372s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.382s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.396s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.472s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws01_plumbing/src/cpp07_exercise/include>
+[0.472s] -- Configured cppcheck exclude dirs and/or files: 
+[0.472s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.472s] -- Added test 'lint_cmake' to check CMake code style
+[0.472s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.473s] -- Added test 'uncrustify' to check C / C++ code style
+[0.473s] -- Configured uncrustify additional arguments: 
+[0.473s] -- Added test 'xmllint' to check XML markup files
+[0.474s] -- Configuring done
+[0.494s] -- Generating done
+[0.503s] -- Build files have been written to: /home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target exer05_action_client[0m
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[0.536s] [ 20%] [32mBuilding CXX object CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o[0m
+[0.536s] [ 30%] Built target exer01_pub_sub
+[0.537s] [ 50%] Built target exer03_client
+[0.539s] [ 70%] Built target exer02_server
+[0.542s] [ 80%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[3.854s] [ 90%] [32m[1mLinking CXX executable exer05_action_client[0m
+[3.998s] [ 90%] Built target exer05_action_client
+[8.486s] [100%] [32m[1mLinking CXX executable exer04_action_server[0m
+[8.851s] [100%] Built target exer04_action_server
+[8.867s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise -- -j8 -l8
+[8.879s] Invoking command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise
+[8.883s] -- Install configuration: ""
+[8.884s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[8.884s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[8.884s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[8.884s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[8.887s] -- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server" to ""
+[8.887s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[8.888s] -- Set runtime path of "/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client" to ""
+[8.888s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[8.888s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[8.889s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[8.889s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[8.889s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[8.889s] -- Installing: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[8.889s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[8.890s] -- Up-to-date: /home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[8.891s] Invoked command in '/home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/cl/CLionProjects/ws01_plumbing/install/base_interfaces_demo:/home/cl/CLionProjects/ws01_plumbing/install/cpp07_exercise:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws01_plumbing/build/cpp07_exercise

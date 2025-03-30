@@ -1,0 +1,4 @@
+[01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp07_exercise/src/exer06_param.cpp:[m[K In member function ‘[01m[Kvoid Exer06Param::update_param()[m[K’:
+[01m[K/home/cl/CLionProjects/ws01_plumbing/src/cpp07_exercise/src/exer06_param.cpp:30:22:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   30 |             if (([01;35m[Kred < 255[m[K & increase) || (red = 0 & !increase)) {
+      |                  [01;35m[K~~~~^~~~~[m[K

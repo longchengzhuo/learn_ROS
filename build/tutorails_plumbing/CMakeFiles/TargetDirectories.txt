@@ -1,9 +1,0 @@
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/uninstall.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/tutorails_plumbing_uninstall.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/test.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/edit_cache.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/rebuild_cache.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/list_install_components.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/install.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/install/local.dir
-/home/cl/CLionProjects/ws01_plumbing/build/tutorails_plumbing/CMakeFiles/install/strip.dir

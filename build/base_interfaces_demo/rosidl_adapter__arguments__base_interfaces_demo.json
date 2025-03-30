@@ -3,6 +3,8 @@
   "non_idl_tuples": [
     "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
     "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:srv/Addints.srv",
-    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
+    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:srv/Distance.srv",
+    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:action/Progress.action",
+    "/home/cl/CLionProjects/ws01_plumbing/src/base_interfaces_demo:action/Nav.action"
   ]
 }
